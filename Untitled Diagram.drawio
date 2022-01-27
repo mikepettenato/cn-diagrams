@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T02:04:34.212Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.4.7" etag="UFXgH-V6WgyYwOa_tjII" type="github"><diagram id="TeR7R_g4FzRytph7oK_9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-27T02:13:50.183Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="zVjq3eUSs43r5IFmBvVp" version="16.4.7" type="github">
+  <diagram id="TeR7R_g4FzRytph7oK_9" name="Page-1">
+    <mxGraphModel dx="1422" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-1" value="Open" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-2" value="In Progress" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-3" value="Done" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-4" value="Reopened" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="X1gKiB_B_rWF1geBgs2Q-1" target="X1gKiB_B_rWF1geBgs2Q-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="240" as="sourcePoint" />
+            <mxPoint x="240" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1gKiB_B_rWF1geBgs2Q-2" target="X1gKiB_B_rWF1geBgs2Q-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="310" as="sourcePoint" />
+            <mxPoint x="700" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1gKiB_B_rWF1geBgs2Q-3" target="X1gKiB_B_rWF1geBgs2Q-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="520" as="sourcePoint" />
+            <mxPoint x="560" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X1gKiB_B_rWF1geBgs2Q-4" target="X1gKiB_B_rWF1geBgs2Q-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="350" as="sourcePoint" />
+            <mxPoint x="200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-9" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;u&gt;Reopened Transition&lt;/u&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;span&gt;QA will reopen stories that have defects.&amp;nbsp; A subtask will be created for the Bug.&amp;nbsp; All bugs that are created must have automated tests that validate the bug does not occur&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-10" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;u&gt;Open -&amp;gt; In Progress&lt;/u&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;Occurs when development has started&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X1gKiB_B_rWF1geBgs2Q-11" value="&lt;h1&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;u&gt;In Progress -&amp;gt; Done&lt;/u&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;All Automated tests have successfully run&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="250" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
